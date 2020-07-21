@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pitypangharcos</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">home</a>
+        <b>|</b>
+        <a href="blog.html">blog</a>
+      </div>
+    
+    <div class="home">
+        <h1>Pitypangharcos</h1>
+        <h3>A kreativitásom végtelen birodalma</h3>
+    </div>
+    <div class="Twitch" >
+        <h3>Kövesd az élő közvetítéseimet Twitchen!</h3>
+        <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "pitypangharcos"
+  });
+</script>
+
+<iframe frameborder="0"
+        scrolling="no"
+        id="chat_embed"
+        src="https://www.twitch.tv/embed/pitypangharcos/chat?parent=pitypangharcos.hu"
+        height="500"
+        width="350">
+</iframe>
+    </div>
+
+<div class="Youtube">
+    <h3>Nézd meg a legutóbbi videómat Youtubeon!</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fYI3EVMGOT8" 
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+        </iframe>
+</div>
+
+<div class="Instagram">
+    <h3>Kövess Instagrammon!</h3>
+
+</div>
+
+<div class="boot">
+    <h6>© Copyright 2020   | Pitypangharcos |   All Rights Reserved   |   Minden jog fenntartva.</h6>
+</div>
+</body>
+</html>
