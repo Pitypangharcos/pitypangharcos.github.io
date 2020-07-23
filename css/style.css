@@ -108,6 +108,8 @@ li a:hover{
 
 #twitch {
     margin-top: 0px;
+    margin-left: auto;
+    margin-left: auto;
     margin: 0;
     padding: 0;
     top: 0px;
@@ -129,6 +131,12 @@ li a:hover{
     font-size: 50px;
     font-weight: 500;
     color: #DCA600;
+}
+
+#twitch-embed {
+    padding: 20px;
+     display: flex;
+     justify-content: center;
 }
 
 #youtube {
@@ -158,10 +166,9 @@ li a:hover{
 
 #latestvid {
     padding: 30px;
-    position: relative;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
 }
 
 #instagram {
