@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+}
+
+#topnav {
+    position: fixed;
+    top:0;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 82px;
+    background: #DCA600 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(31, 31, 31);
+    box-shadow: 10px 0 20px black;
+    z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+@font-face {
+    font-family: "kozu-light";
+    src: url(fonts/kozu/KozGoPr6N-ExtraLight.otf);
+}
+
+li {
+    display: inline;
+    font-family: "kozu-light";
+    padding: 0px;
+    margin: 10px;
+    font-size: 35px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 280px;
+    background: #2A2A2A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: 10px 0 20px black;
+    position: relative;
+    z-index: 900;
+}
+
+#header h1{
+    width: 100%;
+    margin-top: 82px;
+    padding-top: 100px;
+    top: 300px;
+    text-align: center;
+    font-family: "kozu-light";
+    font-size: 100px;
+    font-weight: lighter;
+    color: #DCA600;
+}
+
+#header2 {
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    width: 100%;
+    height: 330px;
+    background: #DCA600 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    z-index: 800;
+    box-shadow: 10px 0 20px black;
+
+}
+
+#header2 h3{
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "kozu-light";
+    font-size: 50px;
+    font-weight: 500;
+    color: #2A2A2A;
+}
+
+#twitch {
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background: #393939 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: 10px 0 20px black;
+    position: relative;
+    z-index: 700;
+}
+
+.yellow {
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "kozu-light";
+    font-size: 50px;
+    font-weight: 500;
+    color: #DCA600;
+}
+
+#youtube {
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background: #DCA600 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: 10px 0 20px black;
+    position: relative;
+    z-index: 600;
+}
+
+#youtube h3 {
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "kozu-light";
+    font-size: 50px;
+    font-weight: 500;
+    color: #2A2A2A;
+}
+
+#instagram {
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background: #393939 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: 10px 0 20px black;
+    position: relative;
+    z-index: 500;
+}
+
+#footer {
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 52px;
+    background: #DCA600 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: 10px 0 20px black;
+    position: relative;
+    z-index: 500;
+}
+
+#footer h6 {
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "kozu-light";
+    font-weight: 500;
+    font-size: 20px;
+    color: #2A2A2A;
+}
