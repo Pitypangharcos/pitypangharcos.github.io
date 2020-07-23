@@ -156,6 +156,14 @@ li a:hover{
     color: #2A2A2A;
 }
 
+#latestvid {
+    padding: 30px;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #instagram {
     margin-top: 0px;
     margin: 0;
@@ -170,6 +178,7 @@ li a:hover{
     position: relative;
     z-index: 500;
 }
+
 
 #footer {
     margin-top: 0px;
@@ -195,3 +204,4 @@ li a:hover{
     font-size: 20px;
     color: #2A2A2A;
 }
+
